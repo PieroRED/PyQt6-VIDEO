@@ -6,7 +6,7 @@ from INICIO import Ui_MainWindow
 class VentanaInicio(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)  # Carga la interfaz directamente sobre self
+        self.setupUi(self)  # Carga la interfaz directamente sobre self DDD
 
         # Conectar botones directamente
         self.pushButton.clicked.connect(self.abrir_login)
